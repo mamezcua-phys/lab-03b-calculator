@@ -1,3 +1,5 @@
+import { addTwoNumbers } from './mathUtils.js'
+
 const myInput1 = document.getElementById("sum-input-1");
 const myInput2 = document.getElementById("sum-input-2");
 const myInput3 = document.getElementById("sum-input-3");
@@ -27,8 +29,9 @@ mySumButton.addEventListener('click', () => {
     // console.log(value1);
     // console.log(value2);
     // const sumValue = parseFloat(value1) + parseFloat(value2);
-    const sumValue = value1 + value2;
+    // const sumValue = value1 + value2;
     // console.log(sumValue);
+    const sumValue = addTwoNumbers(value1,value2);
     mySumSpan.textContent = sumValue;
 })
 
