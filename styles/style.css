@@ -129,3 +129,9 @@ footer {
       grid-template-rows: 1fr 1fr;
       text-align: center;
   }
+
+  button {
+      background: lightcoral;
+      color: white;
+      border-radius: 10px;
+  }
